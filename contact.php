@@ -1,4 +1,5 @@
-<h1>Contact</h1>
+<h1>Contact me</h1>
+hello!!!!!!
 <p>We are an eco based web and logo design company. Our main focus is working with companies that are green friendly. We specialize in getting businesses onto the Internet quickly and professionally. From custom logo identity, to fully branded web and print, we can take your business to success!</p>
 <p>This area is where your intro text can go, and this is what your text links will look like.</p>
 
