@@ -1,0 +1,408 @@
+/* CSS Document */
+
+
+
+*{
+margin:0px;
+padding:0px;
+}
+
+body
+{
+margin:0px;
+background-image:url(../images/body_bg.jpg);
+background-repeat:repeat-x;
+background-color:#0c3143;
+font-family: Verdana;
+}
+
+
+ul#minitabs{list-style: none;margin: 0;padding: 7px 0;
+  border-bottom: 1px solid #CCC;font-weight: bold;
+
+  text-align: center;white-space: nowrap;
+  font-size: 13px;
+  font-family:'Helvetica', Arial, Verdana;
+}
+
+ul#minitabs li{display: inline;margin: 0 2px}
+ul#minitabs a{text-decoration: none;padding: 0 5px 3px 5px;
+  border-bottom: 4px solid #FFF;color: #336699}
+ul#minitabs a#current{border-color: #a4051b;color: black}
+ul#minitabs a:hover{border-color: #a4051b;color: #666} 
+
+
+
+
+
+
+#dvmaincontainer
+{
+
+width:900px;
+margin:0px auto;
+
+}
+
+
+#dvmaincontainer #dvtopcontainer
+{
+
+float:left;
+width:900px;
+margin:0px;
+padding:0px 0px 0px 0px;
+
+}
+
+
+
+
+
+
+
+#dvtopcontainer #dvnavicontainer
+{
+float:right;
+width:395px;
+font-size:0px;
+margin:0px;
+
+padding:0px 0px 10px 0px;
+position: relative;
+ z-index: 3;
+
+
+
+}
+
+
+
+#dvnavicontainer img
+{
+float:left;
+font-size:0px;
+margin:0px;
+padding:0px 0px 0px 0px;
+}
+
+
+
+
+
+ /* main section of site*/
+#dvmaincontainer #dvbodycontainer
+{
+
+position: relative;
+top: 0px;
+float:left;
+width:900px;
+background-image:url(../images/page_bg.jpg);
+background-repeat:repeat-y;
+background-position:top center;
+margin:0px;
+
+padding:0px 0px 30px 0px;
+}
+
+
+/*    top banner*/
+
+#dvbodycontainer #dvbannerbgcontainer
+{
+float:left;
+width:875px;
+height:226px;
+background-image:url(../images/bg.jpg);
+background-repeat:repeat;
+background-position:top;
+border-bottom:1px solid #D5D4CD;
+border-top:1px solid #D5D4CD;
+margin:0px;
+padding:38px 0px 0px 25px;
+}
+
+
+
+#dvbannerbgcontainer .lftcontainer
+{
+float:left;
+width:277px;
+height: 191px;
+font-size:15px;
+margin:0px;
+padding:0px 0px 0px 0px;
+/*border: dashed 1px gray;*/
+text-align: center;
+}
+
+#dvbannerbgcontainer #dvbanner
+{
+float:left;
+font-size:0px;
+margin:0px;
+padding:0px 0px 0px 35px;
+}
+
+
+
+
+
+
+
+/* left column*/
+
+#dvbodycontainer #dvleftpanel
+{
+
+float:left;
+width: 620px;
+margin:0px 60px 0px 20px;
+padding:30px 0px 10px 0px;
+}
+#dvleftpanel .leftimage{
+margin:15px 25px 0px 10px;
+padding:0px 0px 0px 0px;
+}
+
+
+#dvleftpanel h1
+{
+
+/*float:left;*/
+/*width:395px;*/
+font-size:18px;
+text-align:left;
+color:#2C1B11;
+margin:0px 0px 0px 10px;
+padding:10px 0px 0px 0px;
+}
+#dvleftpanel p
+{
+/*float:left;*/
+/*width:650px;*/
+font-size:13px;
+font-family: verdana;
+text-align:left;
+color:#513D2C;
+margin:0px 0px 0px 10px;
+padding:10px 0px 0px 0px;
+}
+
+#dvleftpanel .line
+{
+/*float:left;*/
+/*width:650px;*/
+font-size:0px;
+margin:0px;
+padding:40px 0px 15px 15px;
+}
+
+
+
+
+
+/*   right column*/
+#dvbodycontainer #dvrightpanel
+{
+float:left;
+width:170px;
+margin:20px 0px 0px 0px;
+/*padding:18px 0px 4px 25px;*/
+}
+
+
+
+#dvrightpanel #newsheading
+{
+float:left;
+width:160px;
+font-size:18px;
+margin:0px;
+padding:8px 0px 0px 1px;
+height:23px;
+/*background-color:#cc0066;*/
+border-bottom: #cc0066 3px solid;
+color:#000000;
+text-align:left;
+font-weight:bold;
+font-family: Times;
+voice-family:"\"}\"";
+line-height:18px;
+
+}
+#dvrightpanel #newscont
+{
+float:left;
+width:140px;
+margin:0px;
+padding:25px 10px 4px 10px;
+border-bottom:1px solid #F3F3F3;
+border-left:1px solid #F3F3F3;
+border-right:1px solid #F3F3F3;
+}
+
+.newslist{
+list-style: disc;
+
+}
+
+.newslist li{
+      padding-bottom: 10px;
+      color: #336699;
+      font-size: 13px;
+
+
+}
+
+
+
+/*            footer section   */
+
+
+
+
+
+#dvmaincontainer #dvfootercontainer
+{
+float:left;
+width:900px;
+margin:0px;
+padding:0px 0px 0px 0px;
+}
+#dvfootercontainer #foottop
+{
+float:left;
+width:900px;
+background-image:url(../images/footer.jpg);
+background-repeat:no-repeat;
+background-position:top center;
+margin:0px;
+padding:0px 0px 50px 0px;
+}
+#foottop p
+{
+float:left;
+font-size:12px;
+text-align:left;
+color:#938A82;
+margin:0px;
+padding:25px 0px 0px 20px;
+}
+#foottop p a 
+{
+text-decoration:none;
+color:#938A82;
+padding-left:5px;
+padding-right:5px;
+}
+#foottop p a:hover
+{
+text-decoration:underline;
+color:#938A82;
+}
+#foottop p span
+{
+padding:0px 10px 0px 0px;
+}
+.design
+{
+float:left;
+width:154px;
+margin:0px;
+padding:0px;
+font-size:0px;
+padding-left:80px;
+padding-top:13px;
+}
+
+
+/*- Menu Tabs 1--------------------------- */ 
+
+
+    #tabs1 {
+      float:left;
+    
+	  background:#FAF6DB;
+      font-size:15px;
+      line-height:normal;
+	  font-family:Helvetica, sans-serif;
+	  font-weight:bold;
+	  padding-top:10px; 
+	  padding-bottom:5px;
+	  height:26px;
+	  margin:0px;
+	  line-height:normal;
+	  
+	   /*   height:100%;Fix for MSIE peekaboo bug */
+	 
+      }
+    #tabs1 ul {
+	  margin:0;
+	 list-style:none;
+	  float:left;
+	 padding:0px;
+	 
+      }
+    #tabs1 li {
+      display:inline;
+      margin:0;
+      padding:0;
+	  voice-family:"\"}\"";
+	  line-height:16px;
+	  height:25px;
+	  float:left;
+	  
+	  
+      }
+    #tabs1 a {
+      float:left;
+      background:url("../images/tableft1.gif") no-repeat left top;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+	  
+      }
+    #tabs1 a span {
+      float:left;
+      display:block;
+      background:url("../images/tabright1.gif") no-repeat right top;
+	  color:#2C1C0F;
+      padding:3px 9px 6px 5px; 
+	  voice-family:"\"}\"";
+	  padding-top:2px;
+      }
+
+
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabs1 a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabs a:hover span {
+      color:#FFFFFF;
+	  
+      }
+    #tabs1 a:hover {
+      background-position:0% -42px;
+	   color:#FFFFFF;
+      }
+    #tabs1 a:hover span {
+      background-position:100% -42px;
+	   color:#FFFFFF;
+      }
+
+      #tabs1 #current a {
+      	background-position:0% -42px;
+		 color:#FFFFFF;
+      }
+      #tabs1 #current a span {
+      	background-position:100% -42px;
+		 color:#FFFFFF;
+      }
+	  
+	  /*-----------------------------Menu ------------------------------*/
+
+	  img {
+border: none;
+}
+
